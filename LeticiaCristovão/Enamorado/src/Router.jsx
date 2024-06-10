@@ -5,7 +5,7 @@ import {Home}  from "../../Home/Home.jsx";
 export function Router() {
   return (
     <Routes>
-     <Route path="/<PresentMarried>" element= {<Home/>} />
+     <Route path="/PresentMarried" element= {<Home/>} />
     </Routes>
   );
 }
